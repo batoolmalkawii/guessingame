@@ -3,8 +3,19 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     border: darkcyan;
+    border-style: ridge;
+    padding: 5px;
 }
 h1{
     color: coral;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+}
+
+li{
+      list-style: none;
 }
