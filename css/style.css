@@ -2,20 +2,47 @@ p{
     color: rgb(28, 190, 190);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
-    border: darkcyan;
-    border-style: ridge;
-    padding: 5px;
+    
+    
 }
 h1{
     color: coral;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 footer{
     text-align: right;
 }
 
+#nvg{
+    list-style: none;
+}
+
+#edu{
+    list-style: square;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}
+
+#facts{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#edu, #facts{
+    list-style-position: inside;
+    border: darkcyan;
+    border-style: ridge;
+    padding: 5px;
+    padding-right: 2px;
+    word-spacing: 2px;
+    color: darkslategrey;
+}
+
 li{
-      list-style: none;
+    margin: 0 0 6px 0;
+
 }
