@@ -7,3 +7,6 @@ This is an _About-Me_ guessing game where the user has to guess facts about me. 
 
 At the end of the game, a **score** is displayed to the user, and the _HTML_ webpage shows two lists, a **Top 10 facts about me** list, and a **Background Education and Experiences** list.
  
+* we added functions for the logic of our game .
+* Navigator : Batool Malkawi
+* Driver : Yaqeen Hmad
