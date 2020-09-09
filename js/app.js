@@ -16,7 +16,7 @@ switch (isName.toLocaleLowerCase()) {
   case ('no'):
     alert('Ops! ' + userName + ' :( my name is Batool, it\'s okay we\'ll get to know each other better next time :D');
   //console.log('Wrong.');
-  break;
+    break;
 }
 
 /*
@@ -45,7 +45,7 @@ switch (isAge.toLocaleLowerCase()) {
     alert('Correct ' + userName + '! I am 24 years old :D');
     score = score + 1;
     //console.log('Correct.');
-  break;
+    break;
 }
 
 /*
@@ -74,7 +74,7 @@ switch (isSkating.toLocaleLowerCase()) {
   case ('no'):
     alert('Nope ' + userName + '! I should show you some moves to prove it :D');
     //console.log('Wrong.');
-  break;
+    break;
 }
 
 /*
@@ -103,7 +103,7 @@ switch (isIntro.toLocaleLowerCase()) {
   case ('no'):
     alert('You\'re wrong ' + userName + ' :( but I\'m flexible to change to an extrovert if you offered some ice-cream on the go :D');
     //console.log('Wrong.');
-  break;
+    break;
 }
 
 /*
@@ -132,7 +132,7 @@ switch (isFriend.toLocaleLowerCase()) {
   case ('no'):
     alert('You don\'t have to be so cruel ' + userName + ':( I think I deserve a little tiny chance to re-make a good impression  :D');
     //console.log('Wrong.');
-  break;
+    break;
 }
 
 /*
