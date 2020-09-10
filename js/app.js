@@ -21,19 +21,16 @@ function inputIntro() {
 function inputFriend() {
   return (prompt('Do you think I\'ll be a good friend?'));
 }
-
 function checkName(isName, userName) {
   switch (isName.toLocaleLowerCase()) {
     case ('y'):
     case ('yes'):
       alert('Wow ' + userName + '! my name is Batool, such an impressive start :D');
       score = score + 1;
-      //console.log('Correct.'); 
       break;
     case ('n'):
     case ('no'):
       alert('Ops! ' + userName + ' :( my name is Batool, it\'s okay we\'ll get to know each other better next time :D');
-      //console.log('Wrong.');
       break;
   }
 }
@@ -42,13 +39,11 @@ function checkAge(isAge, userName) {
     case ('y'):
     case ('yes'):
       alert('Ops! ' + userName + ', I am 24 years old :D');
-      //console.log('Wrong.');
       break;
     case ('n'):
     case ('no'):
       alert('Correct ' + userName + '! I am 24 years old :D');
       score = score + 1;
-      //console.log('Correct.');
       break;
   }
 }
@@ -58,12 +53,10 @@ function checkSkating(isSkating, userName) {
     case ('yes'):
       alert('Cool ' + userName + '! I Love skating, I hope you do too :D');
       score = score + 1;
-      //console.log('Correct.');
       break;
     case ('n'):
     case ('no'):
       alert('Nope ' + userName + '! I should show you some moves to prove it :D');
-      //console.log('Wrong.');
       break;
   }
 }
@@ -73,12 +66,10 @@ function checkIntro(isIntro, userName) {
     case ('yes'):
       alert('Yes ' + userName + '! Inner-self is out best friend :D');
       score = score + 1;
-      //console.log('Correct.');
       break;
     case ('n'):
     case ('no'):
       alert('You\'re wrong ' + userName + ' :( but I\'m flexible to change to an extrovert if you offered some ice-cream on the go :D');
-      //console.log('Wrong.');
       break;
   }
 }
@@ -88,12 +79,10 @@ function checkFriend(isFriend, userName) {
     case ('yes'):
       alert('Indeed ' + userName + '! Indeed :D');
       score = score + 1;
-      //console.log('Correct.');
       break;
     case ('n'):
     case ('no'):
       alert('You don\'t have to be so cruel ' + userName + ':( I think I deserve a little tiny chance to re-make a good impression  :D');
-      //console.log('Wrong.');
       break;
   }
 }
@@ -102,18 +91,15 @@ function checkGuessNum(randomNum, userName) {
     var guessNum = prompt('Trial No. ' + (i + 1) + '. Think of a number and write it down, I\'ll do the same and let\'s see how our brains match!');
     if (guessNum > randomNum) {
       alert('Ops! ' + guessNum + ' is too high for ' + randomNum + '.');
-      //console.log('Wrong.');
     }
     else {
       if (guessNum < randomNum) {
         alert('Ops! ' + guessNum + ' is too low for ' + randomNum + '.');
-        //console.log('Wrong.');
 
       }
       else {
         alert('Looks like we\'re on the same page ' + userName + '! ' + randomNum + ' it is.');
         score = score + 1;
-        //console.log('Correct.');
         break;
       }
     }
@@ -127,7 +113,6 @@ function checkFood(food, userName) {
         alert('Yes! You\'re invited to a ' + food[j] + ' dinner tonight :D');
         var isCorrectFood = true;
         score = score + 1;
-        //console.log('Correct.');
         break;
       }
     }

@@ -1,49 +1,126 @@
 
-p{
-    color: rgb(28, 190, 190);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    
-    
+*{
+    box-sizing:border-box;
 }
-h1{
-    color: coral;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background-color:#fbf9c9;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 12px;
+
+}
+
+header h1{
+    
+    color: #df6ea6;
+    font-weight: bolder;
+    float: left;
+}
+
+header nav{
+    float: right;
+    padding: 0 30px;
+    color: #df6ea6;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #df6ea6;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#hero {
+    margin-top: 55px;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+  }
+
+#me h2 {
     text-align: center;
-    margin-bottom: 50px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #4c658d;
+
 }
 
-footer{
-    text-align: right;
-}
+#me p, #me ul {
+    padding: 0 60px;
+    color: #4c658d;
+    line-height: 1.4;
+    list-style: circle;
+  }
 
-#nvg{
-    list-style: none;
-}
-
-#edu{
-    list-style: square;
-    font-weight: bold;
-    margin-bottom: 25px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    
-}
-
-#facts{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#edu, #facts{
+#me ul li{
+    list-style: circle;
+    padding: 0 65px;
     list-style-position: inside;
-    border: darkcyan;
-    border-style: ridge;
-    padding: 5px;
-    padding-right: 2px;
-    word-spacing: 2px;
-    color: darkslategrey;
-}
-
-li{
-    margin: 0 0 6px 0;
 
 }
+
+#facts {
+    margin:0 auto;
+    width: 90%;
+  }
+
+#facts h3 {
+    color: #4c658d ;
+    font-weight: 800;
+    line-height: 1.2;
+    padding-left: 15px;
+    padding-top:20px;
+    text-align: center;
+  }
+
+.f {
+    background-color: #df6ea6;
+    height: 80px;
+    width:38%;
+    margin-top: 20px;
+    margin-right: 350px;
+    margin-left: 400px;
+    float: left;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    line-height: 80px;
+    text-align:center;
+    list-style-position: inside;
+    color: #fbf9c9 ;
+    font-weight: bolder;
+
+  }
+  
+
+
+footer {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    background-color: #fbf9c9;
+    color: #df6ea6;
+    padding: 20px;
+
+  }
+
+  #scr{
+    clear: both;
+      color:#4c658d;
+      font-weight: bolder;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 10px;
+  }
