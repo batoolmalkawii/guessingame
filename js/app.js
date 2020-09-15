@@ -122,36 +122,29 @@ function checkFood(food, userName) {
   }
 }
 function getName(userName) {
-  // question about my name
   var isName = inputName();
   checkName(isName, userName);
 }
 function getAge(userName) {
-  // question about my age
   var isAge = inputAge();
   checkAge(isAge, userName);
 }
 function getSkating(userName) {
-  // question about skating
   var isSkating = inputSkating();
   checkSkating(isSkating, userName);
 }
 function getIntro(userName) {
-  // question about personality
   var isIntro = inputIntro();
   checkIntro(isIntro, userName);
 }
 function getFriend(userName) {
-  // question about friendship
   var isFriend = inputFriend();
   checkFriend(isFriend, userName);
 }
 function getGuessNum(userName) {
-  // question about guessing a number
   checkGuessNum(Math.ceil(Math.random()), userName);
 }
 function getUserFood(userName) {
-  // question about arrays
   var food = ['Grape Leaves', 'Makhshi', 'Mexican Salad', 'Burger', 'Stuffed Chicken'];
   checkFood(food, userName);
   alert('My favorite foods are ' + food + '.');
